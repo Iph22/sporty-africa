@@ -1,7 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Facebook, Twitter as X, Instagram, Mail, Phone, MapPin, Users, Target, Award, Globe } from 'lucide-react';
+import { Facebook, Twitter as X, Instagram, Mail, Phone, MapPin, Users, Target, Award, Globe, Eye } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'About Us - Sporty Africa',
@@ -38,22 +38,27 @@ const AboutPage = () => {
     {
       icon: Target,
       title: 'Our Mission',
-      description: 'To provide comprehensive, accurate, and engaging coverage of African sports, celebrating the continent\'s rich sporting heritage and emerging talents.',
+      description: 'To amplify African sports through honest journalism, powerful storytelling, and digital creativity. We aim to connect the continent’s sports communities and share their energy with the world.',
     },
     {
       icon: Users,
       title: 'Community Focus',
-      description: 'We believe in building a strong community of African sports enthusiasts, connecting fans across the continent and beyond.',
+      description: 'Sporty-Africa is more than media — it’s a movement. We engage fans, celebrate victories, and tell stories that make every follower feel part of Africa’s sporting heartbeat.',
     },
     {
       icon: Award,
       title: 'Quality Journalism',
-      description: 'We are committed to delivering high-quality sports journalism with integrity, accuracy, and fairness in all our reporting.',
+      description: 'Our work is rooted in integrity, accuracy, and creativity. We go beyond headlines to deliver meaningful coverage that reflects the true essence of African sports and culture.',
     },
     {
       icon: Globe,
       title: 'Continental Coverage',
-      description: 'From local grassroots sports to international competitions, we cover the full spectrum of African sports across all 54 countries.',
+      description: 'From local leagues to international arenas, Sporty-Africa follows African athletes wherever they shine. We cover every sport, every region, every moment — because Africa’s stories deserve to be seen and heard everywhere.',
+    },
+    {
+      icon: Eye,
+      title: 'RCL Digitalz',
+      description: 'Robin Communications Limited Digitalz (RCL Digitalz) is the digital and creative arm of Robin Communications Limited, Ghana’s innovative communications company. Under the #RCLDigitalz banner, we develop forward-thinking media platforms such as FootyGhana.com and Sporty-Africa.com, combining credible journalism and modern digital storytelling to elevate African voices in sports and culture.',
     },
   ];
 
